@@ -10,4 +10,7 @@
 
 @interface OctosaverView : ScreenSaverView
 
+@property (strong) NSImageView *imageView;
+@property (strong) NSTextField *label;
+
 @end

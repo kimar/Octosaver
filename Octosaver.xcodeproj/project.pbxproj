@@ -11,6 +11,44 @@
 		2ADFB0C717D8FF7A00502E34 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0C617D8FF7A00502E34 /* ScreenSaver.framework */; };
 		2ADFB0D117D8FF7A00502E34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB0CF17D8FF7A00502E34 /* InfoPlist.strings */; };
 		2ADFB0D517D8FF7A00502E34 /* OctosaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */; };
+		2ADFB0E417D8FFE500502E34 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB0DD17D8FFE500502E34 /* TFHpple.h */; };
+		2ADFB0E517D8FFE500502E34 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0DE17D8FFE500502E34 /* TFHpple.m */; };
+		2ADFB0E617D8FFE500502E34 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB0DF17D8FFE500502E34 /* TFHppleElement.h */; };
+		2ADFB0E717D8FFE500502E34 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0E017D8FFE500502E34 /* TFHppleElement.m */; };
+		2ADFB0E817D8FFE500502E34 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB0E217D8FFE500502E34 /* XPathQuery.h */; };
+		2ADFB0E917D8FFE500502E34 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0E317D8FFE500502E34 /* XPathQuery.m */; };
+		2ADFB0EB17D9001700502E34 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0EA17D9001700502E34 /* libxml2.dylib */; };
+		2ADFB0F617D905C200502E34 /* Octoparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB0F417D905C200502E34 /* Octoparser.h */; };
+		2ADFB0F717D905C200502E34 /* Octoparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0F517D905C200502E34 /* Octoparser.m */; };
+		2ADFB0FD17D9089800502E34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0C417D8FF7A00502E34 /* Cocoa.framework */; };
+		2ADFB10317D9089800502E34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB10117D9089800502E34 /* InfoPlist.strings */; };
+		2ADFB10517D9089800502E34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB10417D9089800502E34 /* main.m */; };
+		2ADFB10917D9089800502E34 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB10717D9089800502E34 /* Credits.rtf */; };
+		2ADFB10C17D9089800502E34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB10B17D9089800502E34 /* AppDelegate.m */; };
+		2ADFB10F17D9089800502E34 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB10D17D9089800502E34 /* MainMenu.xib */; };
+		2ADFB11317D9092800502E34 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0C617D8FF7A00502E34 /* ScreenSaver.framework */; };
+		2ADFB11417D9092F00502E34 /* OctosaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */; };
+		2ADFB11517D9092F00502E34 /* Octoparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0F517D905C200502E34 /* Octoparser.m */; };
+		2ADFB11717D90A0400502E34 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0EA17D9001700502E34 /* libxml2.dylib */; };
+		2ADFB11817D90B1A00502E34 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0DE17D8FFE500502E34 /* TFHpple.m */; };
+		2ADFB11917D90B1C00502E34 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0E017D8FFE500502E34 /* TFHppleElement.m */; };
+		2ADFB11A17D90B1F00502E34 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0E317D8FFE500502E34 /* XPathQuery.m */; };
+		2ADFB12317D912AD00502E34 /* NSURLConnection+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB12117D912AD00502E34 /* NSURLConnection+Blocks.h */; };
+		2ADFB12417D912AD00502E34 /* NSURLConnection+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB12217D912AD00502E34 /* NSURLConnection+Blocks.m */; };
+		2ADFB12517D912AD00502E34 /* NSURLConnection+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB12217D912AD00502E34 /* NSURLConnection+Blocks.m */; };
+		2ADFB12D17D9206D00502E34 /* NSImage+AverageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB12B17D9206D00502E34 /* NSImage+AverageColor.h */; };
+		2ADFB12E17D9206D00502E34 /* NSImage+AverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB12C17D9206D00502E34 /* NSImage+AverageColor.m */; };
+		2ADFB12F17D9206D00502E34 /* NSImage+AverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB12C17D9206D00502E34 /* NSImage+AverageColor.m */; };
+		2ADFB13217D9213A00502E34 /* NSImage+CGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB13017D9213A00502E34 /* NSImage+CGImage.h */; };
+		2ADFB13317D9213A00502E34 /* NSImage+CGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB13117D9213A00502E34 /* NSImage+CGImage.m */; };
+		2ADFB13417D9213A00502E34 /* NSImage+CGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB13117D9213A00502E34 /* NSImage+CGImage.m */; };
+		2ADFB13717D9234F00502E34 /* NSColor+InverseColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFB13517D9234F00502E34 /* NSColor+InverseColor.h */; };
+		2ADFB13817D9234F00502E34 /* NSColor+InverseColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB13617D9234F00502E34 /* NSColor+InverseColor.m */; };
+		2ADFB13917D9234F00502E34 /* NSColor+InverseColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB13617D9234F00502E34 /* NSColor+InverseColor.m */; };
+		2ADFB14817D9281100502E34 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB14617D9281100502E34 /* thumbnail.png */; };
+		2ADFB14917D9281100502E34 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB14617D9281100502E34 /* thumbnail.png */; };
+		2ADFB14A17D9281100502E34 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB14717D9281100502E34 /* thumbnail@2x.png */; };
+		2ADFB14B17D9281100502E34 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB14717D9281100502E34 /* thumbnail@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +63,34 @@
 		2ADFB0D217D8FF7A00502E34 /* Octosaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Octosaver-Prefix.pch"; sourceTree = "<group>"; };
 		2ADFB0D317D8FF7A00502E34 /* OctosaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctosaverView.h; sourceTree = "<group>"; };
 		2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctosaverView.m; sourceTree = "<group>"; };
+		2ADFB0DD17D8FFE500502E34 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		2ADFB0DE17D8FFE500502E34 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		2ADFB0DF17D8FFE500502E34 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		2ADFB0E017D8FFE500502E34 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		2ADFB0E217D8FFE500502E34 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		2ADFB0E317D8FFE500502E34 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		2ADFB0EA17D9001700502E34 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		2ADFB0F417D905C200502E34 /* Octoparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Octoparser.h; sourceTree = "<group>"; };
+		2ADFB0F517D905C200502E34 /* Octoparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Octoparser.m; sourceTree = "<group>"; };
+		2ADFB0FC17D9089800502E34 /* OctosaverDebugPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctosaverDebugPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADFB10017D9089800502E34 /* OctosaverDebugPreview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctosaverDebugPreview-Info.plist"; sourceTree = "<group>"; };
+		2ADFB10217D9089800502E34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ADFB10417D9089800502E34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ADFB10617D9089800502E34 /* OctosaverDebugPreview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctosaverDebugPreview-Prefix.pch"; sourceTree = "<group>"; };
+		2ADFB10817D9089800502E34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2ADFB10A17D9089800502E34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ADFB10B17D9089800502E34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ADFB10E17D9089800502E34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2ADFB12117D912AD00502E34 /* NSURLConnection+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+Blocks.h"; sourceTree = "<group>"; };
+		2ADFB12217D912AD00502E34 /* NSURLConnection+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Blocks.m"; sourceTree = "<group>"; };
+		2ADFB12B17D9206D00502E34 /* NSImage+AverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+AverageColor.h"; sourceTree = "<group>"; };
+		2ADFB12C17D9206D00502E34 /* NSImage+AverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+AverageColor.m"; sourceTree = "<group>"; };
+		2ADFB13017D9213A00502E34 /* NSImage+CGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+CGImage.h"; sourceTree = "<group>"; };
+		2ADFB13117D9213A00502E34 /* NSImage+CGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CGImage.m"; sourceTree = "<group>"; };
+		2ADFB13517D9234F00502E34 /* NSColor+InverseColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+InverseColor.h"; sourceTree = "<group>"; };
+		2ADFB13617D9234F00502E34 /* NSColor+InverseColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+InverseColor.m"; sourceTree = "<group>"; };
+		2ADFB14617D9281100502E34 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		2ADFB14717D9281100502E34 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +98,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADFB0EB17D9001700502E34 /* libxml2.dylib in Frameworks */,
 				2ADFB0C517D8FF7A00502E34 /* Cocoa.framework in Frameworks */,
 				2ADFB0C717D8FF7A00502E34 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADFB0F917D9089800502E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADFB11717D90A0400502E34 /* libxml2.dylib in Frameworks */,
+				2ADFB11317D9092800502E34 /* ScreenSaver.framework in Frameworks */,
+				2ADFB0FD17D9089800502E34 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2ADFB0CC17D8FF7A00502E34 /* Octosaver */,
+				2ADFB0FE17D9089800502E34 /* OctosaverDebugPreview */,
 				2ADFB0C317D8FF7A00502E34 /* Frameworks */,
 				2ADFB0C217D8FF7A00502E34 /* Products */,
 			);
@@ -53,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				2ADFB0C117D8FF7A00502E34 /* Octosaver.saver */,
+				2ADFB0FC17D9089800502E34 /* OctosaverDebugPreview.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +139,7 @@
 		2ADFB0C317D8FF7A00502E34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2ADFB0EA17D9001700502E34 /* libxml2.dylib */,
 				2ADFB0C417D8FF7A00502E34 /* Cocoa.framework */,
 				2ADFB0C617D8FF7A00502E34 /* ScreenSaver.framework */,
 				2ADFB0C817D8FF7A00502E34 /* Other Frameworks */,
@@ -82,7 +162,11 @@
 			children = (
 				2ADFB0D317D8FF7A00502E34 /* OctosaverView.h */,
 				2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */,
+				2ADFB0F417D905C200502E34 /* Octoparser.h */,
+				2ADFB0F517D905C200502E34 /* Octoparser.m */,
 				2ADFB0CD17D8FF7A00502E34 /* Supporting Files */,
+				2ADFB11B17D9125B00502E34 /* Categories */,
+				2ADFB0DB17D8FFE500502E34 /* Vendor */,
 			);
 			path = Octosaver;
 			sourceTree = "<group>";
@@ -90,12 +174,81 @@
 		2ADFB0CD17D8FF7A00502E34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2ADFB14617D9281100502E34 /* thumbnail.png */,
+				2ADFB14717D9281100502E34 /* thumbnail@2x.png */,
 				2ADFB0CE17D8FF7A00502E34 /* Octosaver-Info.plist */,
 				2ADFB0CF17D8FF7A00502E34 /* InfoPlist.strings */,
 				2ADFB0D217D8FF7A00502E34 /* Octosaver-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		2ADFB0DB17D8FFE500502E34 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0DC17D8FFE500502E34 /* Hpple */,
+			);
+			path = Vendor;
+			sourceTree = SOURCE_ROOT;
+		};
+		2ADFB0DC17D8FFE500502E34 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0DD17D8FFE500502E34 /* TFHpple.h */,
+				2ADFB0DE17D8FFE500502E34 /* TFHpple.m */,
+				2ADFB0DF17D8FFE500502E34 /* TFHppleElement.h */,
+				2ADFB0E017D8FFE500502E34 /* TFHppleElement.m */,
+				2ADFB0E117D8FFE500502E34 /* XPath */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		2ADFB0E117D8FFE500502E34 /* XPath */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0E217D8FFE500502E34 /* XPathQuery.h */,
+				2ADFB0E317D8FFE500502E34 /* XPathQuery.m */,
+			);
+			path = XPath;
+			sourceTree = "<group>";
+		};
+		2ADFB0FE17D9089800502E34 /* OctosaverDebugPreview */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB10A17D9089800502E34 /* AppDelegate.h */,
+				2ADFB10B17D9089800502E34 /* AppDelegate.m */,
+				2ADFB10D17D9089800502E34 /* MainMenu.xib */,
+				2ADFB0FF17D9089800502E34 /* Supporting Files */,
+			);
+			path = OctosaverDebugPreview;
+			sourceTree = "<group>";
+		};
+		2ADFB0FF17D9089800502E34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB10017D9089800502E34 /* OctosaverDebugPreview-Info.plist */,
+				2ADFB10117D9089800502E34 /* InfoPlist.strings */,
+				2ADFB10417D9089800502E34 /* main.m */,
+				2ADFB10617D9089800502E34 /* OctosaverDebugPreview-Prefix.pch */,
+				2ADFB10717D9089800502E34 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ADFB11B17D9125B00502E34 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB12117D912AD00502E34 /* NSURLConnection+Blocks.h */,
+				2ADFB12217D912AD00502E34 /* NSURLConnection+Blocks.m */,
+				2ADFB12B17D9206D00502E34 /* NSImage+AverageColor.h */,
+				2ADFB12C17D9206D00502E34 /* NSImage+AverageColor.m */,
+				2ADFB13017D9213A00502E34 /* NSImage+CGImage.h */,
+				2ADFB13117D9213A00502E34 /* NSImage+CGImage.m */,
+				2ADFB13517D9234F00502E34 /* NSColor+InverseColor.h */,
+				2ADFB13617D9234F00502E34 /* NSColor+InverseColor.m */,
+			);
+			path = Categories;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -104,6 +257,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADFB0E417D8FFE500502E34 /* TFHpple.h in Headers */,
+				2ADFB0E617D8FFE500502E34 /* TFHppleElement.h in Headers */,
+				2ADFB0E817D8FFE500502E34 /* XPathQuery.h in Headers */,
+				2ADFB0F617D905C200502E34 /* Octoparser.h in Headers */,
+				2ADFB12317D912AD00502E34 /* NSURLConnection+Blocks.h in Headers */,
+				2ADFB12D17D9206D00502E34 /* NSImage+AverageColor.h in Headers */,
+				2ADFB13217D9213A00502E34 /* NSImage+CGImage.h in Headers */,
+				2ADFB13717D9234F00502E34 /* NSColor+InverseColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +290,23 @@
 			productReference = 2ADFB0C117D8FF7A00502E34 /* Octosaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
+		2ADFB0FB17D9089800502E34 /* OctosaverDebugPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADFB11017D9089800502E34 /* Build configuration list for PBXNativeTarget "OctosaverDebugPreview" */;
+			buildPhases = (
+				2ADFB0F817D9089800502E34 /* Sources */,
+				2ADFB0F917D9089800502E34 /* Frameworks */,
+				2ADFB0FA17D9089800502E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OctosaverDebugPreview;
+			productName = OctosaverDebugPreview;
+			productReference = 2ADFB0FC17D9089800502E34 /* OctosaverDebugPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +329,7 @@
 			projectRoot = "";
 			targets = (
 				2ADFB0C017D8FF7A00502E34 /* Octosaver */,
+				2ADFB0FB17D9089800502E34 /* OctosaverDebugPreview */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +340,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADFB0D117D8FF7A00502E34 /* InfoPlist.strings in Resources */,
+				2ADFB14817D9281100502E34 /* thumbnail.png in Resources */,
+				2ADFB14A17D9281100502E34 /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADFB0FA17D9089800502E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADFB10317D9089800502E34 /* InfoPlist.strings in Resources */,
+				2ADFB10917D9089800502E34 /* Credits.rtf in Resources */,
+				2ADFB10F17D9089800502E34 /* MainMenu.xib in Resources */,
+				2ADFB14917D9281100502E34 /* thumbnail.png in Resources */,
+				2ADFB14B17D9281100502E34 /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +375,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADFB0D517D8FF7A00502E34 /* OctosaverView.m in Sources */,
+				2ADFB0E517D8FFE500502E34 /* TFHpple.m in Sources */,
+				2ADFB0E717D8FFE500502E34 /* TFHppleElement.m in Sources */,
+				2ADFB0E917D8FFE500502E34 /* XPathQuery.m in Sources */,
+				2ADFB0F717D905C200502E34 /* Octoparser.m in Sources */,
+				2ADFB12417D912AD00502E34 /* NSURLConnection+Blocks.m in Sources */,
+				2ADFB12E17D9206D00502E34 /* NSImage+AverageColor.m in Sources */,
+				2ADFB13317D9213A00502E34 /* NSImage+CGImage.m in Sources */,
+				2ADFB13817D9234F00502E34 /* NSColor+InverseColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADFB0F817D9089800502E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADFB10517D9089800502E34 /* main.m in Sources */,
+				2ADFB10C17D9089800502E34 /* AppDelegate.m in Sources */,
+				2ADFB11417D9092F00502E34 /* OctosaverView.m in Sources */,
+				2ADFB11517D9092F00502E34 /* Octoparser.m in Sources */,
+				2ADFB11817D90B1A00502E34 /* TFHpple.m in Sources */,
+				2ADFB11917D90B1C00502E34 /* TFHppleElement.m in Sources */,
+				2ADFB11A17D90B1F00502E34 /* XPathQuery.m in Sources */,
+				2ADFB12517D912AD00502E34 /* NSURLConnection+Blocks.m in Sources */,
+				2ADFB12F17D9206D00502E34 /* NSImage+AverageColor.m in Sources */,
+				2ADFB13417D9213A00502E34 /* NSImage+CGImage.m in Sources */,
+				2ADFB13917D9234F00502E34 /* NSColor+InverseColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +413,30 @@
 				2ADFB0D017D8FF7A00502E34 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2ADFB10117D9089800502E34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADFB10217D9089800502E34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2ADFB10717D9089800502E34 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADFB10817D9089800502E34 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2ADFB10D17D9089800502E34 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADFB10E17D9089800502E34 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,9 +504,12 @@
 		2ADFB0D917D8FF7A00502E34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Octosaver/Octosaver-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Octosaver/Octosaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,13 +520,46 @@
 		2ADFB0DA17D8FF7A00502E34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Octosaver/Octosaver-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Octosaver/Octosaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		2ADFB11117D9089800502E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctosaverDebugPreview/OctosaverDebugPreview-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "OctosaverDebugPreview/OctosaverDebugPreview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2ADFB11217D9089800502E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctosaverDebugPreview/OctosaverDebugPreview-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "OctosaverDebugPreview/OctosaverDebugPreview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -301,6 +580,14 @@
 			buildConfigurations = (
 				2ADFB0D917D8FF7A00502E34 /* Debug */,
 				2ADFB0DA17D8FF7A00502E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ADFB11017D9089800502E34 /* Build configuration list for PBXNativeTarget "OctosaverDebugPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADFB11117D9089800502E34 /* Debug */,
+				2ADFB11217D9089800502E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -7,6 +7,16 @@
 //
 
 #import "OctosaverView.h"
+#import "Octoparser.h"
+#import "NSImage+AverageColor.h"
+#import "NSColor+InverseColor.h"
+
+@interface OctosaverView ()
+{
+    Octoparser *_parser;
+    NSInteger _counter;
+}
+@end
 
 @implementation OctosaverView
 
@@ -14,9 +24,46 @@
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
-        [self setAnimationTimeInterval:1/30.0];
+        [self initialization];
     }
     return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self initialization];
+    }
+    
+    return self;
+}
+
+- (void) initialization
+{
+    [self setAnimationTimeInterval:1/30.0f];
+
+    _counter = 200;
+    _parser = [[Octoparser alloc] init];
+
+    self.imageView = [[NSImageView alloc] initWithFrame:[self bounds]];
+    [self addSubview:self.imageView];
+    
+    self.label = [[NSTextField alloc] initWithFrame:NSMakeRect(0, 0, self.bounds.size.width, 100)];
+    self.label.autoresizingMask = NSViewWidthSizable;
+    self.label.alignment = NSCenterTextAlignment;
+    self.label.backgroundColor = [NSColor clearColor];
+    [self.label setEditable:NO];
+    [self.label setBezeled:NO];
+    self.label.textColor = [NSColor colorWithDeviceRed:254.0f/255.0f
+                                                 green:229.0f/255.0f
+                                                  blue:161.0f/255.0f
+                                                 alpha:1.0];
+    
+    self.label.font = [NSFont fontWithName:@"Helvetica Neue" size:24.0];
+    [self addSubview:self.label];
+    
+    [self refreshOctocat];
 }
 
 - (void)startAnimation
@@ -32,10 +79,25 @@
 - (void)drawRect:(NSRect)rect
 {
     [super drawRect:rect];
+    [self drawOctocat];
+
+    [[self.imageView.image averageColor] setFill];
+    NSRectFill(rect);
 }
 
 - (void)animateOneFrame
 {
+    if(_counter == 0)
+    {
+        [self refreshOctocat];
+        _counter = 200;
+    }
+    else
+    {
+        _counter--;
+    }
+    
+    self.needsDisplay = YES;
     return;
 }
 
@@ -47,6 +109,30 @@
 - (NSWindow*)configureSheet
 {
     return nil;
+}
+
+#pragma mrk - Private
+- (void) refreshOctocat
+{
+    [_parser getRandomOctocatFromOcotodex:^(NSImage *octocat, NSString *catname) {
+        [self.imageView setImage:octocat];
+        [self.label setStringValue:[catname stringByReplacingOccurrencesOfString:@"the " withString:@""]];
+    }];
+}
+
+- (void) drawOctocat
+{
+    CGRect r = self.imageView.frame;
+    r.origin.x = self.bounds.size.width / 2 - r.size.width / 2;
+    r.origin.y = self.bounds.size.height / 2 - r.size.height / 2.4;
+    self.imageView.frame = r;
+
+    NSSize s = [self.label.stringValue sizeWithAttributes:@{NSFontAttributeName: self.label.font}];
+    CGRect rl = self.label.frame;
+    rl.size.height = s.height;
+    rl.origin.y = self.imageView.frame.origin.y - 60;
+    self.label.frame = rl;
+    self.label.textColor = [self.imageView.image averageColor].inverseColor;
 }
 
 @end
