@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADFB0C517D8FF7A00502E34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0C417D8FF7A00502E34 /* Cocoa.framework */; };
+		2ADFB0C717D8FF7A00502E34 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB0C617D8FF7A00502E34 /* ScreenSaver.framework */; };
+		2ADFB0D117D8FF7A00502E34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFB0CF17D8FF7A00502E34 /* InfoPlist.strings */; };
+		2ADFB0D517D8FF7A00502E34 /* OctosaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ADFB0C117D8FF7A00502E34 /* Octosaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Octosaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADFB0C417D8FF7A00502E34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2ADFB0C617D8FF7A00502E34 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		2ADFB0C917D8FF7A00502E34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2ADFB0CA17D8FF7A00502E34 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2ADFB0CB17D8FF7A00502E34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2ADFB0CE17D8FF7A00502E34 /* Octosaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Octosaver-Info.plist"; sourceTree = "<group>"; };
+		2ADFB0D017D8FF7A00502E34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ADFB0D217D8FF7A00502E34 /* Octosaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Octosaver-Prefix.pch"; sourceTree = "<group>"; };
+		2ADFB0D317D8FF7A00502E34 /* OctosaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctosaverView.h; sourceTree = "<group>"; };
+		2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctosaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADFB0BC17D8FF7A00502E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADFB0C517D8FF7A00502E34 /* Cocoa.framework in Frameworks */,
+				2ADFB0C717D8FF7A00502E34 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADFB0B617D8FF7A00502E34 = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0CC17D8FF7A00502E34 /* Octosaver */,
+				2ADFB0C317D8FF7A00502E34 /* Frameworks */,
+				2ADFB0C217D8FF7A00502E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADFB0C217D8FF7A00502E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0C117D8FF7A00502E34 /* Octosaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADFB0C317D8FF7A00502E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0C417D8FF7A00502E34 /* Cocoa.framework */,
+				2ADFB0C617D8FF7A00502E34 /* ScreenSaver.framework */,
+				2ADFB0C817D8FF7A00502E34 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ADFB0C817D8FF7A00502E34 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0C917D8FF7A00502E34 /* AppKit.framework */,
+				2ADFB0CA17D8FF7A00502E34 /* CoreData.framework */,
+				2ADFB0CB17D8FF7A00502E34 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2ADFB0CC17D8FF7A00502E34 /* Octosaver */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0D317D8FF7A00502E34 /* OctosaverView.h */,
+				2ADFB0D417D8FF7A00502E34 /* OctosaverView.m */,
+				2ADFB0CD17D8FF7A00502E34 /* Supporting Files */,
+			);
+			path = Octosaver;
+			sourceTree = "<group>";
+		};
+		2ADFB0CD17D8FF7A00502E34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFB0CE17D8FF7A00502E34 /* Octosaver-Info.plist */,
+				2ADFB0CF17D8FF7A00502E34 /* InfoPlist.strings */,
+				2ADFB0D217D8FF7A00502E34 /* Octosaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ADFB0BD17D8FF7A00502E34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ADFB0C017D8FF7A00502E34 /* Octosaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADFB0D817D8FF7A00502E34 /* Build configuration list for PBXNativeTarget "Octosaver" */;
+			buildPhases = (
+				2ADFB0BB17D8FF7A00502E34 /* Sources */,
+				2ADFB0BC17D8FF7A00502E34 /* Frameworks */,
+				2ADFB0BD17D8FF7A00502E34 /* Headers */,
+				2ADFB0BE17D8FF7A00502E34 /* Resources */,
+				2ADFB0BF17D8FF7A00502E34 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octosaver;
+			productName = Octosaver;
+			productReference = 2ADFB0C117D8FF7A00502E34 /* Octosaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADFB0B717D8FF7A00502E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Marcus Kida";
+			};
+			buildConfigurationList = 2ADFB0BA17D8FF7A00502E34 /* Build configuration list for PBXProject "Octosaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2ADFB0B617D8FF7A00502E34;
+			productRefGroup = 2ADFB0C217D8FF7A00502E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADFB0C017D8FF7A00502E34 /* Octosaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADFB0BE17D8FF7A00502E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADFB0D117D8FF7A00502E34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2ADFB0BF17D8FF7A00502E34 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADFB0BB17D8FF7A00502E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADFB0D517D8FF7A00502E34 /* OctosaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ADFB0CF17D8FF7A00502E34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADFB0D017D8FF7A00502E34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ADFB0D617D8FF7A00502E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2ADFB0D717D8FF7A00502E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2ADFB0D917D8FF7A00502E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octosaver/Octosaver-Prefix.pch";
+				INFOPLIST_FILE = "Octosaver/Octosaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		2ADFB0DA17D8FF7A00502E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octosaver/Octosaver-Prefix.pch";
+				INFOPLIST_FILE = "Octosaver/Octosaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADFB0BA17D8FF7A00502E34 /* Build configuration list for PBXProject "Octosaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADFB0D617D8FF7A00502E34 /* Debug */,
+				2ADFB0D717D8FF7A00502E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADFB0D817D8FF7A00502E34 /* Build configuration list for PBXNativeTarget "Octosaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADFB0D917D8FF7A00502E34 /* Debug */,
+				2ADFB0DA17D8FF7A00502E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ADFB0B717D8FF7A00502E34 /* Project object */;
+}
