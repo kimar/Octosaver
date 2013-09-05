@@ -1,6 +1,6 @@
 # Octosaver
 
-![Screenshot]((https://github.com/kimar/Octosaver/raw/master/Release/Screenshot.png)
+![Screenshot](https://raw.github.com/kimar/Octosaver/master/Release/Screenshot.png)
 
 A simple Screensaver which uses the [Octodex' Octocats](http://octodex.github.com) and shows them (incl. their Names) on your Screen.
 
