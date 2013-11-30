@@ -55,10 +55,7 @@
     self.label.backgroundColor = [NSColor clearColor];
     [self.label setEditable:NO];
     [self.label setBezeled:NO];
-    self.label.textColor = [NSColor colorWithDeviceRed:254.0f/255.0f
-                                                 green:229.0f/255.0f
-                                                  blue:161.0f/255.0f
-                                                 alpha:1.0];
+    self.label.textColor = [NSColor blackColor];
     
     self.label.font = [NSFont fontWithName:@"Helvetica Neue" size:24.0];
     [self addSubview:self.label];
@@ -81,7 +78,7 @@
     [super drawRect:rect];
     [self drawOctocat];
 
-    [[self.imageView.image averageColor] setFill];
+    [[NSColor whiteColor] setFill];
     NSRectFill(rect);
 }
 
@@ -132,7 +129,8 @@
     rl.size.height = s.height;
     rl.origin.y = self.imageView.frame.origin.y - 60;
     self.label.frame = rl;
-    self.label.textColor = [self.imageView.image averageColor].inverseColor;
+    self.label.textColor = [NSColor blackColor];
+    
 }
 
 @end
