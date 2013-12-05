@@ -46,7 +46,7 @@
     _counter = 200;
     _parser = [[Octoparser alloc] init];
 
-    self.imageView = [[NSImageView alloc] initWithFrame:[self bounds]];
+    self.imageView = [[NSImageView alloc] initWithFrame:[self activeScreenRect]];
     [self addSubview:self.imageView];
     
     self.label = [[NSTextField alloc] initWithFrame:NSMakeRect(0, 0, self.bounds.size.width, 100)];
@@ -61,6 +61,21 @@
     [self addSubview:self.label];
     
     [self refreshOctocat];
+}
+
+- (NSRect) activeScreenRect
+{
+    
+    NSRect screenRect;
+    NSArray *screenArray = [NSScreen screens];
+    NSInteger screenCount = [screenArray count];
+    
+    for (NSInteger i = 0; i < screenCount; i++)
+    {
+        NSScreen *screen = [screenArray objectAtIndex:i];
+        screenRect = [screen visibleFrame];
+    }
+    return screenRect;
 }
 
 - (void)startAnimation
