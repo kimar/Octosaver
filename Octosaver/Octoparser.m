@@ -31,8 +31,8 @@
                                   NSUInteger randomIndex = arc4random() % [elements count];
                                   TFHppleElement *element = [elements objectAtIndex:randomIndex];
                                   NSDictionary *attributes = [element attributes];
-                                  NSURL *url = [NSURL URLWithString:[attributes objectForKey:@"data-src"]];
-                                  
+                                  NSURL *url = [NSURL URLWithString:[@"http://octodex.github.com/" stringByAppendingString:[attributes objectForKey:@"data-src"]]];
+
                                   dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
                                       NSData *imageData = [[NSData alloc] initWithContentsOfURL:url];
                                       NSImage *image = [[NSImage alloc] initWithData:imageData];
