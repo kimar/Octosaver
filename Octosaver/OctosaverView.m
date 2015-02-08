@@ -123,6 +123,10 @@
     return nil;
 }
 
++ (NSBackingStoreType)backingStoreType {
+    return NSBackingStoreBuffered;
+}
+
 #pragma mrk - Private
 - (void) refreshOctocat
 {
