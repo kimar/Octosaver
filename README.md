@@ -1,10 +1,10 @@
 # Octosaver
 
+[![Twitter: @Kidmar](https://img.shields.io/badge/contact-@Kidmar-blue.svg?style=flat)](https://twitter.com/Kidmar)
+
 A simple Screensaver which uses the [Octodex' Octocats](http://octodex.github.com) and shows them (incl. their Names) on your Screen.
 
 Nothing too fancy, but cool though.
-
-[![Twitter: @Kidmar](https://img.shields.io/badge/contact-@Kidmar-blue.svg?style=flat)](https://twitter.com/Kidmar)
 
 ![Screenshot](https://raw.github.com/kimar/Octosaver/master/Release/Screenshot.png)
 
